@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Loading Game...</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <div id="game"></div>
+
+```
+<script>
+    const games = {
+        unbound: "https://YOUR-DROPBOX-LINK-HERE",
+        gaia: "https://YOUR-DROPBOX-LINK-HERE",
+        radicalred: "https://YOUR-DROPBOX-LINK-HERE",
+        stonedragon: "https://YOUR-DROPBOX-LINK-HERE",
+        blazeblack: "https://YOUR-DROPBOX-LINK-HERE",
+        voltwhite: "https://YOUR-DROPBOX-LINK-HERE"
+    };
+
+    const params = new URLSearchParams(window.location.search);
+    const game = params.get("game");
+
+    if (!games[game]) {
+        document.body.innerHTML = "<h1>Game not found</h1>";
+        throw new Error("Game not found");
+    }
+
+    window.EJS_player = "#game";
+    window.EJS_gameUrl = games[game];
+    window.EJS_core = game === "blazeblack" || game === "voltwhite"
+        ? "nds"
+        : "gba";
+    window.EJS_pathtodata = "data/";
+
+    const script = document.createElement("script");
+    script.src = "data/loader.js";
+    document.body.appendChild(script);
+</script>
+```
+
+</body>
+</html>
