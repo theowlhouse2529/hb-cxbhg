@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Pokemon Library</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>My Pokemon Library</h1>
+
+```
+<h2>GBA</h2>
+<ul>
+    <li><a href="https://www.dropbox.com/scl/fi/0gvfogdsz5lpqxhfvqqcb/blackpearl-v1.0.1.zip?rlkey=85vuxq1yfad5evaxx36tdr9aw&st=aeg64e1r&dl=0>
+    <li><a href="https://www.dropbox.com/scl/fi/vxvjnbiqyk9rmb77edecc/Celias-Stupid-1.0.91.zip?rlkey=n85uvtes2gxzlkewd7fymxbfd&st=mgso4qf3&dl=0>
+    <li><a href="https://www.dropbox.com/scl/fi/91bhthsgt64dabjpujaax/ceruleanaquarium.zip?rlkey=8b137em83h0l2gs7fdwjear3c&st=iqua0zsh&dl=0>
+    <li><a href="https://www.dropbox.com/scl/fo/4me4238861esvntfmon8a/ABZYzIWgXR_RSoM83HWkvlU?rlkey=idzn08rtwmo27tx77hkywepfz&st=15e0r022&dl=0>
+</ul>
+
+<h2>NDS</h2>
+<ul>
+
+</ul>
+```
+
+</body>
+</html>
